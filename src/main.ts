@@ -5,7 +5,7 @@ let win;
 
 function createWindow() {
   // 创建浏览器窗口
-  win = new BrowserWindow({ width: 1920, height: 1080, fullscreen: true });
+  win = new BrowserWindow({ width: 1920, height: 1080 });
 
   //然后加载app的index.html
   let indexPath = path.join(__dirname, '../views/pages/login.html');
